@@ -15,13 +15,13 @@ function Footer() {
                             <Typography variant="h5" align="center" gutterBottom style={{ color: "white" }}>Siga-nos nas redes sociais </Typography>
                         </Box>
                         <Box display="flex" alignItems="center" justifyContent="center">
-                            <a href="https://www.facebook.com/generationbrasil" target="_blank">
+                            <a href="https://www.facebook.com/profile.php?viewas=100000686899395&id=100005086082994" target="_blank">
                                 <FacebookIcon style={{ fontSize: 60, color: "white" }} />
                             </a>
-                            <a href="https://www.instagram.com/generationbrasil/" target="_blank">
+                            <a href="https://www.instagram.com/matheus_ink_tattoo/" target="_blank">
                                 <InstagramIcon style={{ fontSize: 60, color: "white" }} />
                             </a>
-                            <a href="https://www.linkedin.com/school/generationbrasil/" target="_blank">
+                            <a href="https://www.linkedin.com/in/dev-matheus-oliveira/" target="_blank">
                                 <LinkedInIcon style={{ fontSize: 60, color: "white" }} />
                             </a>
                         </Box>
