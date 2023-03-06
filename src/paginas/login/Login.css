@@ -1,3 +1,9 @@
 .text-decorator-none{
     text-decoration: none;
+    color: white;
+}
+.cadastre-se{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
 }

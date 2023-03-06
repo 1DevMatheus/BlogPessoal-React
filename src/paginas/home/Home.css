@@ -1,11 +1,23 @@
-.titulo{
-    color: blueviolet;
-    text-align: center;
+:root{
+    --cordefundo: #3F51B5;
+    --branco: #fff;
 }
 
-.img{
-    width: 500px;
-    height: 500px;
-    display: block;
-    margin: 0 auto;
+.caixa{
+    background-color: var(--cordefundo) !important;
+
+}
+.botao{
+    color: #fff;
+}
+
+
+.titulo {
+    color: var(--branco) !important; 
+    font-weight: bold !important;
+}
+
+
+.postagens{
+    background-color: var(--branco);
 }
