@@ -23,14 +23,19 @@ function Navbar() {
                             </Link>
                         </Box>
                         <Box mx={1} className='cursor'>
+                                                
+                            <Link className='text-decorator-none' to='/postagens'>
                             <Typography variant="h6" color="inherit">
                                 postagens
                             </Typography>
+                            </Link>  
                         </Box>
                         <Box mx={1} className='cursor'>
+                            <Link className='text-decorator-none' to='/temas'>
                             <Typography variant="h6" color="inherit">
                                 temas
                             </Typography>
+                            </Link>
                         </Box>
                         <Box mx={1} className='cursor'>
                             <Typography variant="h6" color="inherit">

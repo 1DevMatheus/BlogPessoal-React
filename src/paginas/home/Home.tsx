@@ -3,6 +3,8 @@ import { Button, Grid, Paper, Typography } from '@material-ui/core';
 import './Home.css';
 import Box from '@mui/material/Box';
 import { Block } from "@material-ui/icons";
+import { Link } from "react-router-dom";
+import TabPostagens from "../../components/postagens/tabPostagens/TabPostagens";
 
 function Home() {
     return (
@@ -16,13 +18,16 @@ function Home() {
                     <Box display="flex" justifyContent="center">
                         <Box marginRight={1}>
                         </Box >
+                        <Link className="links" to='/postagens'>
                         <Button className='botao' variant="contained" color="inherit">Ver Postagens</Button>
+                        </Link>
                     </Box>
                 </Grid>
                 <Grid item xs={6} >
                     <img src="https://i.imgur.com/H88yIo2.png" alt="" width="500px" height="500px" />
                 </Grid>
                 <Grid xs={12} className='postagens'>
+                <TabPostagens />
                 </Grid>
             </Grid>
         </>
