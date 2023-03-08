@@ -4,7 +4,7 @@ import { Card, CardActions, CardContent, Button, Typography } from '@material-ui
 import {Box} from '@mui/material';
 import './ListaPostagens.css';
 
-function ListaPostagens() {
+function ListaPostagem() {
 
   return (
     <>
