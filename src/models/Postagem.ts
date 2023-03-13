@@ -1,9 +1,9 @@
 import Temas from './Tema';
-interface Postagens{
+interface Postagem{
     id: number;
     titulo: string;
     texto: string;
     tema: Temas | null
 }
 
-export default Postagens;
+export default Postagem;
