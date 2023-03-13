@@ -3,7 +3,7 @@ import './CadastroUsuario.css'
 import { Grid,Typography, Button, TextField } from '@material-ui/core';
 import {Box} from '@mui/material';
 import { Link, useNavigate } from 'react-router-dom';
-import { cadastro } from '../../services/Service';
+import { cadastroUsuario } from '../../services/Service';
 import User from '../../models/User';
 
 function CadastroUsuario(){
@@ -38,7 +38,7 @@ function CadastroUsuario(){
         event.preventDefault()
         try {
         if(user.senha === confirmarSenha) {
-          await cadastro('/usuarios/cadastrar', user, setUserResult);
+          await cadastroUsuario('/usuarios/cadastrar', user, setUserResult);
           alert('Usuario cadastrado com sucesso')
         } else {
           alert('As senhas não conferem')

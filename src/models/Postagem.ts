@@ -1,4 +1,4 @@
-import Temas from './Temas';
+import Temas from './Tema';
 interface Postagens{
     id: number;
     titulo: string;
