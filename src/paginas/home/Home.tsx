@@ -43,6 +43,9 @@ function Home() {
                     </Box>
                     <Box display="flex" justifyContent="center">
                         <Box marginRight={1}>
+                          
+                            <video width='350px' controls src="https://ik.imagekit.io/wwd7wv4ro/VID-20230309-WA0098.mp4?updatedAt=1678893417576"></video>
+
                             <ModalPostagem />
                         </Box>
                         <Link className='links' to='/posts'>            
