@@ -50,7 +50,7 @@ function CadastroUsuario(){
             theme: 'colored',
             progress: undefined
         });        } else {
-          toast.error("As senhas não comferem", {
+          toast.error("As senhas não conferem", {
             position: "top-right",
             autoClose: 2000,
             hideProgressBar: false,

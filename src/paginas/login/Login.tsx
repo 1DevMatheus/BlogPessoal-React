@@ -32,7 +32,7 @@ function Login() {
         })
     }
  
-    useEffect(()=>{
+   useEffect(()=>{
         if(token != ''){
             dispatch(addToken(token))
             navigate('/home')
