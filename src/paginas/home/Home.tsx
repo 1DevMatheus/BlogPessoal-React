@@ -43,6 +43,7 @@ function Home() {
                     </Box>
                     <Box display="flex" justifyContent="center">
                         <Box marginRight={1}>
+                        
                             <ModalPostagem />
                         </Box>
                         <Link className='links' to='/posts'>            
